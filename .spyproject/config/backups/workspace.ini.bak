@@ -1,0 +1,10 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+
+[main]
+version = 0.2.0
+recent_files = ['mc\\shop\\templates\\shop\\productview.html', 'mc\\shop\\templates\\shop\\index.html', 'mc\\shop\\templates\\shop\\checkout.html', 'mc\\shop\\models.py', 'mc\\shop\\templates\\shop\\about.html', 'mc\\shop\\templates\\shop\\basic.html', 'mc\\shop\\templates\\shop\\contact.html', 'mc\\shop\\admin.py', 'mc\\shop\\apps.py', 'mc\\mc\\views.py', 'mc\\mc\\urls.py', 'mc\\shop\\urls.py', 'mc\\blog\\urls.py', 'mc\\blog\\views.py', 'mc\\mc\\templates\\index.html', 'mc\\mc\\templates\\login.html', 'mc\\shop\\views.py']
+

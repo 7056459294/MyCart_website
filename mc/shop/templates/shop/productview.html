@@ -1,0 +1,31 @@
+{% extends 'shop/basic.html' %}
+
+{% block titel %} product view {% endblock %}
+
+{% block css %} this is block css {% endblock %}
+
+{% block body %} 
+<div  class="container my-4">
+       <div class="row"> 
+       <div class="col-md-4" >
+       <div class="row">
+           <img src='/media/{{product.image}}' width="233px" height="350px">
+    
+       </div>
+           <div class="col">
+              <button herf="" class="btn btn-primary mx-3 my-3">Buy Now</button>
+              <button class="btn btn-primary my-3">Add to Cart</button>
+           </div>
+       </div> 
+       <div class="col-md-8">
+          <h5>{{product.product_name}}</h5>
+          <p><h5>Rs.{{product.price}}</h5></p>
+          <p>{{product.des}}</p>
+       </div>
+       </div>
+</div>
+
+
+
+
+ {% endblock %}
